@@ -1,3 +1,4 @@
+#Input para inserir o Usuário
 def inputCriaUsuario():
     usuario = dict()
     usuario['nome'] = input('Informe o seu nome: ')
@@ -11,7 +12,7 @@ def inputDefinicaoPalavra(jogador):
           f"informe a palava que deseja desafiar o seu adversário. "
           f"Tome cuidado para que ele não veja!")
     while True:
-        palavra = input('Qual palavra deseja usar? (Ex.: Abelha, Cachorro...)')
+        palavra = input('Qual palavra deseja usar? (Ex.: Abelha, Cachorro...)\n')
         if palavra:
             break
 
